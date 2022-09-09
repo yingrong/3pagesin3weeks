@@ -52,3 +52,19 @@ nav {
     padding: 4px 16px;
     border-radius: 16px;
 }
+
+
+.hero-section {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section>section {
+    flex: 1;
+}
+
+.game-cover img {
+    width: 100%;
+}
