@@ -87,3 +87,31 @@ nav {
 .media span.rating {
     margin-left: 8px;
 }
+
+.latest-news {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.news-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.news {
+    flex: 1;
+}
+
+.news img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.news p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+h4 {
+    margin: 1rem 0;
+}
