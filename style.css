@@ -67,4 +67,23 @@ nav {
 
 .game-cover img {
     width: 100%;
+    border-radius: 38px;
+}
+
+.game-cover {
+    position: relative;
+}
+
+.media .title {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.media span.rating {
+    margin-left: 8px;
 }
