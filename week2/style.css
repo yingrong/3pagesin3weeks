@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
 .main {
     display: flex;
     align-items: center;
@@ -20,4 +34,17 @@
 .profile-container {
     flex: 1 1 25%;
     border-left: 1px dashed red;
+}
+
+nav, .nav-list {
+    height: 100%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list li {
+    flex: 1;
 }
