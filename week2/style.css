@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.main > * {
+    height: 100%;
+}
+
+.nav-container {
+    flex: 0 0 2rem;
+    border-right: 1px dashed red;
+}
+
+.posts-container {
+    flex: 3 3 75%;
+}
+
+.profile-container {
+    flex: 1 1 25%;
+    border-left: 1px dashed red;
+}
