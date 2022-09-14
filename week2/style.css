@@ -5,7 +5,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 li {
@@ -24,7 +24,7 @@ li {
 
 .nav-container {
     flex: 0 0 2rem;
-    border-right: 1px dashed red;
+    border-right: 1px dashed rgba(157, 154, 154, 0.345);
 }
 
 .posts-container {
@@ -76,4 +76,24 @@ li:nth-child(7) a {
 }
 li img {
     width: 100%;
+}
+
+.top-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px dashed #eee;
+}
+
+.top-nav-list li a {
+    color: black;
+}
+
+.top-nav-list input {
+    appearance: none;
+    border: none;
+    background-color: #F6F9FE;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
 }
