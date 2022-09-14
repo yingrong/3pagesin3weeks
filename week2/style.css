@@ -104,18 +104,34 @@ li img {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill,200px);
-    grid-template-rows: 100px 150px 50px;
+    grid-template-columns: repeat(auto-fill,15rem);
+    grid-auto-rows: 1rem;
     justify-content: center;
-    justify-items: stretch;
     gap: 1rem;
+    margin: 1rem 0;
 }
 
 .card {
     background-color: #EEC310;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
 
-.card:first-child {
+.small {
+    grid-row-end: span 10;
+}
+
+
+.medium {
+    grid-row-end: span 12;
+}
+
+
+.large {
+    grid-row-end: span 15;
+}
+
+/* .card:first-child {
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -123,4 +139,4 @@ li img {
 .card:nth-child(4) {
     grid-row-start: 2;
     grid-row-end: 4;
-}
+} */
