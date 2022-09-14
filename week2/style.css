@@ -116,6 +116,7 @@ li img {
     /* background-color: #EEC310; */
     padding: 1rem;
     border-radius: 0.5rem;
+    box-shadow: 4px 4px 16px #efefef;
 }
 
 .small {
