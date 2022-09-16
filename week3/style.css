@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 0% 1rem;
 }
 
 li {
@@ -16,7 +17,7 @@ li {
 .nav-list {
     display: flex;
     gap: 1rem;
-    padding: 1rem 1rem;
+    padding: 1rem 0;
     align-items: center;
 }
 
@@ -73,3 +74,17 @@ button {
     color: black;
 }
 
+.categories {
+    margin: 3rem 0;
+    font-size: 12px;
+}
+
+.categories span {
+    padding-right: 1rem;
+    text-transform: uppercase;
+    color: #484d55;
+}
+
+.categories span:last-child {
+    padding-right: 0;
+}
