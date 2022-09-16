@@ -58,12 +58,18 @@ button {
     font-weight: 700;
 }
 
+:root {
+    --color-primary: #192026;
+    --color-sencondary: #e0e6e6;
+}
+
 .button-primary {
-    background-color:  #192026;
+    background-color: var(--color-primary);
     color: white;
 }
 
 .button-secondary {
-    background-color: #E0E6E6;
+    background-color: var(--color-sencondary);
     color: black;
 }
+
