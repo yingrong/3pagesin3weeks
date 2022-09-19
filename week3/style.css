@@ -128,3 +128,41 @@ button {
     width: 100%;
     position: absolute;
 }
+
+.author img {
+    width: 100%;
+}
+
+@media (min-width:800px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .menu-item {
+        display: block;
+    }
+
+    .menu-item a {
+        text-decoration: none;
+        color: var(--color-primary);
+    }
+
+    .hero-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .categories {
+        margin-left: auto;
+    }
+
+    .buttons {
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+}
