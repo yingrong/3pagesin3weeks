@@ -165,4 +165,23 @@ button {
         justify-content: flex-start;
         gap: 0.5rem;
     }
+
+    .details {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 2rem 10%;
+    }
+
+    .details article {
+        flex: 1;
+    }
+
+    .details article:first-child {
+        padding: 0 2rem;
+    }
+
+    .image-container {
+        width: 80%;
+        top: 20%;
+    }
 }
